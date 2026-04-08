@@ -26,7 +26,7 @@
       <h3
         id="little-bit-about-me"
         v-html="aboutMe"
-        class="heading-1-alt lg:heading-1 section-heading col-span-full leading-none font-extrabold uppercase md:col-span-8 md:col-start-6"
+        class="heading-1-alt lg:text-[6.5vw] section-heading col-span-full leading-none font-extrabold uppercase text-end md:col-span-11 md:col-start-2 lg:col-span-10 lg:col-start-3"
       ></h3>
     </div>
 
@@ -88,7 +88,7 @@
 
   onBeforeMount(() => {
     aboutMe.value = textSplitterIntoChar(
-      'Photographer, Filmmaker, Content Creator/',
+      'Cinematographer Photographer, Filmmaker/',
       true,
       true,
     );
