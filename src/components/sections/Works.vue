@@ -193,12 +193,13 @@
       year: '2024',
     },
     {
-      name: 'Pyutube',
-      category: 'CLI Tool & Cross Platform',
-      tags: ['Python', 'CLI', 'Youtube'],
+      name: 'joleneprins',
+      category: '',
+      tags: ['Shoot Content'],
       videoSrc: work1,
       imageBg: workBg1,
-      url: 'https://github.com/hetari/pyutube',
+      fullVideo: true,
+      url: 'https://www.instagram.com/joleneprins.com_blog/',
       year: '2024',
     },
   ];
