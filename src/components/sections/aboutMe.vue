@@ -44,9 +44,9 @@
         <p
           class="heading-4 relative w-full max-w-[40ch] leading-snug font-medium text-balance"
         >
-          With a passion for design and development, I take projects from
-          ideation to launch, ensuring a seamless journey that leaves a lasting
-          positive impact on the digital landscape and your business.
+          With a focus on filmmaking and cinematography, I take projects from
+          concept to final frame, ensuring a seamless process that delivers
+          visually compelling work and a lasting impact on your audience.
         </p>
 
         <div
