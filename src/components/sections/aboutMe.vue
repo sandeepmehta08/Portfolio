@@ -56,12 +56,14 @@
             ( ABOUT ME )
           </p>
           <p class="heading-6 font-fancy w-full text-balance sm:max-w-[40ch]">
-            Creating great web experiences is my primary focus. I ensure each
-            project leaves users with a feel-good sensation through meticulous
-            attention to detail and user-centric design principles. <br /><br />
-            When I'm not immersed in web development and design, you can find me
-            sharing insights about my freelance journey on <i>&Xopf;</i>,
-            loudly, playing music (Funk), or just relaxing.
+            Creating strong visual experiences is my primary focus. I ensure
+            each project leaves a lasting impression through careful attention
+            to detail, composition, and cinematic storytelling. I take on
+            multiple roles across the process to bring each project together
+            seamlessly. <br /><br />
+            When I’m not working on films, I’m either finding good music on
+            Spotify, reading a book I may or may not finish, or just doing
+            nothing.
           </p>
         </div>
       </div>
