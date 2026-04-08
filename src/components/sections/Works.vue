@@ -171,14 +171,15 @@
       year: '2024',
     },
     {
-      name: 'Axon',
-      category: 'Frontend & Documentation',
-      tags: ['Vue.js', 'Tailwind', 'AI'],
+      name: 'incredipets.app',
+      category: '',
+      tags: ['Cinematography', 'Content'],
       videoSrc: work3,
       imageBg: workBg3,
-      url: 'https://github.com/Hetari/axon',
+      fullVideo: true,
+      url: 'https://www.instagram.com/incredipets.app/',
 
-      year: '2024',
+      year: '2025',
     },
     {
       name: 'Blogy',
