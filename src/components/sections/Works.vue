@@ -153,7 +153,7 @@
   const selectedWorksProps = [
     {
       name: 'Delhi//PadelCollective',
-      category: 'New Delhi, India',
+      category: '',
       tags: ['Cinematography', 'Colour Grading'],
       videoSrc: work5,
       imageBg: workBg5,
