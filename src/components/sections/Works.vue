@@ -57,7 +57,8 @@
         >
           <a class="group" target="_blank" :href="work.url">
             <div
-              class="flex-center relative aspect-square overflow-clip rounded-lg"
+              class="flex-center relative overflow-clip rounded-lg"
+              :class="work.fullVideo ? 'aspect-video' : 'aspect-square'"
             >
               <img
                 alt="work-background"
@@ -65,29 +66,37 @@
                 class="absolute size-full object-cover select-none"
                 :src="work.imageBg"
               />
-              <div
-                class="flex-center z-10 aspect-4/3 size-full overflow-clip rounded-lg object-cover"
-              >
-                <!-- autoplay="false" -->
-                <video
-                  ref="videoRefs"
-                  :src="work.videoSrc"
-                  muted
-                  :autoplay="false"
-                  type="video/webm"
-                  class="size-[80%] rounded-md object-contain blur transition-all duration-500 ease-in-out"
-                ></video>
-              </div>
+            <div
+              class="flex-center z-10 size-full overflow-clip rounded-lg object-cover"
+            >
+              <!-- autoplay="false" -->
+              <video
+                ref="videoRefs"
+                :src="work.videoSrc"
+                muted
+                loop
+                :autoplay="false"
+                type="video/webm"
+                :class="[
+                  'transition-all duration-500 ease-in-out blur',
+                  work.fullVideo
+                    ? 'size-full object-cover'
+                    : 'size-[80%] rounded-md object-contain',
+                ]"
+              ></video>
+            </div>
             </div>
             <div>
               <p class="heading-6 font-title! mt-[2%] mb-[1%] leading-none">
                 {{ work.category }}
               </p>
-              <div class="items-center justify-between sm:flex">
-                <h3 class="heading-3 font-title! font-bold uppercase">
+              <div
+                class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 sm:flex-nowrap"
+              >
+                <h3 class="heading-4 font-title! font-bold leading-tight">
                   {{ work.name }}
                 </h3>
-                <div class="flex gap-1.5 select-none">
+                <div class="flex flex-wrap gap-1.5 select-none">
                   <p
                     class="border-flax-smoke-300 hover:bg-flax-smoke-300 hover:text-flax-smoke-900 rounded-full border px-4 py-2 transition-[background-color,color] duration-500 ease-in-out"
                     v-for="tag in work.tags"
@@ -143,13 +152,14 @@
 
   const selectedWorksProps = [
     {
-      name: 'Madar',
-      category: 'Frontend',
-      tags: ['Vue.js', 'Tailwind', 'Gsap'],
+      name: 'Delhi//PadelCollective',
+      category: 'New Delhi, India',
+      tags: ['Cinematography', 'Colour Grading'],
       videoSrc: work5,
       imageBg: workBg5,
-      url: 'https://madar.services/',
-      year: '2025',
+      fullVideo: true,
+      url: 'https://www.instagram.com/delhipadelcollective/',
+      year: '2026',
     },
     {
       name: 'Iphone 15 Clone',
