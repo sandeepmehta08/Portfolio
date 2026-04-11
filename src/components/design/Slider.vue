@@ -78,7 +78,9 @@
     <template v-else>
       <div class="col-span-full">
         <template v-for="(p, i) in people" :key="i">
-          <div class="mt-10 grid w-full grid-cols-5 items-start sm:grid-cols-4">
+          <div
+            class="mt-20 grid w-full grid-cols-5 items-start border-t border-flax-smoke-300 pt-10 sm:grid-cols-4"
+          >
             <div
               class="columns-gap heading-2 relative col-span-1 flex h-full flex-col leading-none font-bold"
             >
