@@ -18,12 +18,10 @@ const navLinks = [
     label: 'About',
     url: '#about-me-section',
   },
-  /*
   {
     label: 'Testimonials',
     url: '#testimonials-section',
   },
-  */
   {
     label: 'Contact',
     url: '#contact-section',

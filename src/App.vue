@@ -53,7 +53,7 @@
     </div>
 
     <aboutMe />
-    <!-- <People /> -->
+    <People />
     <Contact />
   </main>
 
@@ -66,6 +66,7 @@
     Services,
     Works,
     aboutMe,
+    People,
     Contact,
   } from '@/components/sections';
   import { onMounted, type Ref, ref, watch } from 'vue';

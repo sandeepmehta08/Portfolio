@@ -1,7 +1,7 @@
 <template>
   <div
     id="slider"
-    class="column-gap relative mt-[10%] grid w-full grid-cols-12 gap-2 max-md:min-h-svh lg:h-[85svh]"
+    class="column-gap relative mt-[10%] grid w-full grid-cols-12 gap-2 h-auto lg:h-[85svh]"
   >
     <!-- For larger devices, show one person at a time with index -->
     <template v-if="!isSmallScreen">
