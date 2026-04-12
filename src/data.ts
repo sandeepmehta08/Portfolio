@@ -44,6 +44,10 @@ const socialLinks = [
     label: 'LinkedIn',
     url: 'https://www.linkedin.com/in/sandeep-mehta-25bb99231/',
   },
+  {
+    label: 'X',
+    url: 'https://x.com/mehtasaaaaab',
+  },
 ];
 
 const resourceLinks = [
