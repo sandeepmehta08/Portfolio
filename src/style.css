@@ -51,7 +51,7 @@ layer(base);
   --heading-1: clamp(3.5rem, 2.3571rem + 5.5143vw, 10.5rem);
   --heading-display: clamp(4rem, 1.203rem + 10.0714vw, 10.25rem);
   --heading-body: clamp(1rem, 0.6071rem + 1.0143vw, 2.25rem);
-  --heading-1--alt: clamp(3rem, 2.25rem + 3.75vw, 5.625rem);
+  --heading-1--alt: clamp(2rem, 1.5rem + 3.75vw, 5.625rem);
 }
 
 @utility font-fancy {
