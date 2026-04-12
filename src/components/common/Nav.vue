@@ -112,7 +112,7 @@
             v-for="(l, index) in navLinks"
             :key="l.label"
             tag="li"
-            :label="l.label + (index !== navLinks.length - 1 ? ',' : '')"
+            :label="l.label"
             :url="l.url"
           />
         </ul>
