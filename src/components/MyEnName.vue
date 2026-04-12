@@ -9,7 +9,7 @@
       y="100"
       font-family="'Bricolage Grotesque', sans-serif"
       font-weight="900"
-      font-size="120"
+      font-size="110"
       letter-spacing="-2"
       class="translate-y-full will-change-auto"
     >
