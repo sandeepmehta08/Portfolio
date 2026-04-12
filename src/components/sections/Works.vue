@@ -175,7 +175,7 @@
       year: '2025',
     },
     {
-      name: 'Homless - Documentary',
+      name: 'Homeless - Documentary',
       category: '',
       tags: ['Editor'],
       videoSrc: work4,
@@ -184,7 +184,7 @@
       year: '2024',
     },
     {
-      name: 'joleneprins',
+      name: 'Jolene Prins',
       category: '',
       tags: ['Shoot Content'],
       videoSrc: work1,
