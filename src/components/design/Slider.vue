@@ -18,15 +18,7 @@
             <p>{{ people[index].author }}</p>
             <p class="text-flax-smoke-400">{{ people[index].position }}</p>
           </div>
-          <div id="quote-tags" class="flex gap-3">
-            <p
-              class="border-flax-smoke-500 text-flax-smoke-600 rounded-full border px-3 uppercase"
-              v-for="i in people[index].tags"
-              :key="i"
-            >
-              {{ i }}
-            </p>
-          </div>
+
         </div>
 
         <div class="relative flex h-full items-end justify-between">
@@ -107,17 +99,7 @@
                   </p>
                 </div>
 
-                <div
-                  class="flex max-w-60 flex-wrap gap-3 leading-[200%] uppercase"
-                >
-                  <p
-                    class="border-flax-smoke-500 text-flax-smoke-600 rounded-full border px-3 text-nowrap uppercase"
-                    v-for="i in p.tags"
-                    :key="i"
-                  >
-                    {{ i }}
-                  </p>
-                </div>
+
               </div>
             </div>
           </div>

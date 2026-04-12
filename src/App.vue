@@ -53,7 +53,7 @@
     </div>
 
     <aboutMe />
-    <People />
+    <!-- <People /> -->
     <Contact />
   </main>
 
