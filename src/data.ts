@@ -37,10 +37,6 @@ const socialLinks = [
     url: 'https://www.instagram.com/mehtasaaaaab/',
   },
   {
-    label: 'YouTube',
-    url: 'https://www.youtube.com/watch?v=GBIIQ0kP15E',
-  },
-  {
     label: 'LinkedIn',
     url: 'https://www.linkedin.com/in/sandeep-mehta-25bb99231/',
   },
