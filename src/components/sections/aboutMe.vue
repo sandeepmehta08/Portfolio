@@ -37,7 +37,7 @@
         <img
           :src="profile2"
           class="aspect-[1/1.5] rounded-lg object-cover object-top mix-blend-screen brightness-90 grayscale"
-          alt="Headshot of Mehtasaaaaab facing a camera"
+          alt="Headshot of Sandeep facing a camera"
         />
       </div>
       <div class="col-span-11 mt-10 md:col-span-8 md:col-start-6">

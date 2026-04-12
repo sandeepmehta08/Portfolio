@@ -69,7 +69,7 @@
             <img
               id="profile-img"
               :src="profile"
-              alt="Mehtasaaaaab profile"
+              alt="Sandeep profile"
               class="size-full scale-90 rounded-lg object-cover object-top brightness-110 grayscale"
             />
           </div>

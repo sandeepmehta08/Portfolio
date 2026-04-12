@@ -13,7 +13,7 @@
       letter-spacing="-2"
       class="translate-y-full will-change-auto"
     >
-      MEHTASAAAAAB
+      SANDEEP
     </text>
   </svg>
 </template>
