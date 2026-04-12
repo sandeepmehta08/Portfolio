@@ -60,12 +60,7 @@
               class="flex-center relative overflow-clip rounded-lg"
               :class="work.fullVideo ? 'aspect-video' : 'aspect-square'"
             >
-              <img
-                alt="work-background"
-                loading="lazy"
-                class="absolute size-full object-cover select-none"
-                :src="work.imageBg"
-              />
+
             <div
               class="flex-center z-10 size-full overflow-clip rounded-lg object-cover"
             >
@@ -126,7 +121,7 @@
   import gsap from 'gsap';
   import { useWindowSize } from '@vueuse/core';
   import { work1, work2, work3, work4, work5 } from '@/assets/videos';
-  import { workBg1, workBg2, workBg3, workBg4, workBg5 } from '@/assets/images';
+
   const videoRefs = useTemplateRef<HTMLVideoElement[]>('videoRefs');
 
   const isSmallScreen = computed(() => {
@@ -156,7 +151,6 @@
       category: '',
       tags: ['Cinematography', 'Colour Grading'],
       videoSrc: work5,
-      imageBg: workBg5,
       fullVideo: true,
       url: 'https://www.instagram.com/delhipadelcollective/',
       year: '2026',
@@ -166,7 +160,6 @@
       category: '',
       tags: ['Cinematography', 'Edit'],
       videoSrc: work2,
-      imageBg: workBg2,
       fullVideo: true,
       url: 'https://www.instagram.com/reel/DNSRJ-Tpy-L/',
       year: '2025',
@@ -176,7 +169,6 @@
       category: '',
       tags: ['Cinematography', 'Content'],
       videoSrc: work3,
-      imageBg: workBg3,
       fullVideo: true,
       url: 'https://www.instagram.com/incredipets.app/',
 
@@ -187,7 +179,6 @@
       category: '',
       tags: ['Editor'],
       videoSrc: work4,
-      imageBg: workBg4,
       fullVideo: true,
       url: 'https://www.instagram.com/reel/DQweFUaiRyl/',
       year: '2024',
@@ -197,7 +188,6 @@
       category: '',
       tags: ['Shoot Content'],
       videoSrc: work1,
-      imageBg: workBg1,
       fullVideo: true,
       url: 'https://www.instagram.com/joleneprins.com_blog/',
       year: '2024',
