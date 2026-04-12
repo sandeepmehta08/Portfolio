@@ -85,12 +85,12 @@
               <p
                 class="3xl:text-base block leading-snug font-medium -tracking-tight uppercase"
               >
-                Available for freelance work
+                CRAFTING VISUALS SINCE
               </p>
               <h3
                 class="3xl:heading-1 heading-1-alt font-fancy block leading-none font-bold -tracking-tight"
               >
-                {{ AvailableForWorkDate }}
+                2023
               </h3>
             </div>
           </div>
@@ -106,16 +106,14 @@
   import { MyName, Star } from '../design';
   import { Button } from '@/components/common';
   import { profile } from '@/assets/images';
-  import { getAvailableForWorkDate, textSplitterIntoChar } from '@/functions';
+  import { textSplitterIntoChar } from '@/functions';
   // import { dataCalConfig, dataCalLink, dataCalNamespace } from '@/data';
 
   const whoAmI = ref(
     'A freelance photographer and filmmaker, capturing moments and telling stories through cinematic visuals.',
   );
-  const AvailableForWorkDate = ref('');
 
   onBeforeMount(() => {
     whoAmI.value = textSplitterIntoChar(whoAmI.value);
-    AvailableForWorkDate.value = getAvailableForWorkDate();
   });
 </script>
