@@ -38,7 +38,7 @@
             </div>
 
             <p class="sr-only">
-              A freelance photographer and filmmaker, capturing moments and
+              A cinematographer, filmmaker and editor, capturing moments and
               telling stories through cinematic visuals.
             </p>
             <p
@@ -110,7 +110,7 @@
   // import { dataCalConfig, dataCalLink, dataCalNamespace } from '@/data';
 
   const whoAmI = ref(
-    'A freelance photographer and filmmaker, capturing moments and telling stories through cinematic visuals.',
+    'A cinematographer, filmmaker and editor, capturing moments and telling stories through cinematic visuals.',
   );
 
   onBeforeMount(() => {

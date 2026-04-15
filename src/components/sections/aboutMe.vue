@@ -90,7 +90,7 @@
 
   onBeforeMount(() => {
     aboutMe.value = textSplitterIntoChar(
-      'Cinematographer Photographer Filmmaker/',
+      'Cinematographer Filmmaker Editor/',
       true,
       true,
     );

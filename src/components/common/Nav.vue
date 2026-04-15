@@ -100,8 +100,8 @@
         <p
           class="heading-6 font-fancy text-flax-smoke-400 hidden font-bold uppercase select-none md:block"
         >
-          available for freelancers <br />
-          work and collaboration
+          available for work and <br />
+          collaboration
         </p>
       </div>
       <div class="flex">
