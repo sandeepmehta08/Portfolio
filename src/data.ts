@@ -55,6 +55,10 @@ const resourceLinks = [
     label: 'Spotify',
     url: 'https://open.spotify.com/user/31soi6fjx5tkwnxuzashvxfzemya?si=75fc361336a04275?',
   },
+  {
+    label: 'Letterboxd',
+    url: 'https://letterboxd.com/mehtasaaaaaab/',
+  },
 ];
 
 const heroText =
