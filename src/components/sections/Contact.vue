@@ -15,15 +15,15 @@
         playsinline
       ></video>
       <!-- :style="'background-image: url(' + contact + ') !important; '" -->
-      <div class="flex-center z-10 flex-col gap-y-8">
+      <div class="flex-center z-10 flex-col gap-y-6 sm:gap-y-8 px-4 w-full">
         <p
-          class="heading-4 text-flax-smoke-300 max-w-[30ch] text-center font-mono"
+          class="text-xs sm:text-sm md:heading-4 text-flax-smoke-300 max-w-[30ch] text-center font-mono tracking-wider"
         >
           Every frame starts with an idea.
         </p>
         <h3
           id="make-it-happen"
-          class="heading-1 text-flax-smoke-200 max-w-[10ch] text-center leading-none"
+          class="text-[8.5vw] xs:text-5xl sm:text-6xl md:text-7xl lg:heading-1 text-flax-smoke-200 max-w-[11ch] text-center leading-tight sm:leading-none"
           v-html="makeItHappen"
         ></h3>
         <div
